@@ -110,7 +110,7 @@ class d3BarChart extends Component {
             .data(this.data)
             .transition()
             .delay(0)
-            .duration(1000)
+            .duration(500)
             .attr("x", this.x(0))
             .attr("width", d => this.x(d) - this.x(0))
 
@@ -119,7 +119,7 @@ class d3BarChart extends Component {
             .data(this.data)
             .transition()
             .delay(0)
-            .duration(1000)
+            .duration(500)
             .attr("x", d => this.x(d))
             .attr("width", (d, i) => this.x(this.rawData[i]) - this.x(d))
 
@@ -139,7 +139,7 @@ class d3BarChart extends Component {
             this.svg.select("#marker-right")
                 .selectAll("text")
                 .transition()
-                .delay(1000)
+                .delay(200)
                 .attr("fill-opacity", hover? 1: 0)
         }
     }

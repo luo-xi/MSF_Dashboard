@@ -24,6 +24,8 @@ class ChordChart extends Component {
         const arc = createArc(innerRadius, innerRadius + 20);
 
         const chords = chord(matrix);
+        console.log(matrix);
+        console.log(chords.groups);
         const group = svg.append('g')
             .attr("id", "segments")
             .selectAll("g")

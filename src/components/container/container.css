@@ -1,0 +1,18 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#root{
+    background-color: #ccffff; 
+}
+
+#container{
+    height: 100%;
+    width: 1300px;
+    background-color: white;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
