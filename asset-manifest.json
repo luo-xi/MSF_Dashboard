@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MSF_Dashboard/static/css/main.8cb3d081.chunk.css",
+    "main.js": "/MSF_Dashboard/static/js/main.2ea354a5.chunk.js",
+    "main.js.map": "/MSF_Dashboard/static/js/main.2ea354a5.chunk.js.map",
+    "runtime-main.js": "/MSF_Dashboard/static/js/runtime-main.86d18517.js",
+    "runtime-main.js.map": "/MSF_Dashboard/static/js/runtime-main.86d18517.js.map",
+    "static/js/2.f1aaca7b.chunk.js": "/MSF_Dashboard/static/js/2.f1aaca7b.chunk.js",
+    "static/js/2.f1aaca7b.chunk.js.map": "/MSF_Dashboard/static/js/2.f1aaca7b.chunk.js.map",
+    "index.html": "/MSF_Dashboard/index.html",
+    "precache-manifest.47529d238fb501c10bfd77d1215c7f25.js": "/MSF_Dashboard/precache-manifest.47529d238fb501c10bfd77d1215c7f25.js",
+    "service-worker.js": "/MSF_Dashboard/service-worker.js",
+    "static/css/main.8cb3d081.chunk.css.map": "/MSF_Dashboard/static/css/main.8cb3d081.chunk.css.map",
+    "static/js/2.f1aaca7b.chunk.js.LICENSE.txt": "/MSF_Dashboard/static/js/2.f1aaca7b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86d18517.js",
+    "static/js/2.f1aaca7b.chunk.js",
+    "static/css/main.8cb3d081.chunk.css",
+    "static/js/main.2ea354a5.chunk.js"
+  ]
+}
