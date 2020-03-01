@@ -56,7 +56,7 @@ class Container extends Component {
                     <ol>
                         <li>How many MSF assignments have be completed by each of the various pools?</li>
                         <li>Which are the major pools that most staff have moved to from a particular pool?</li>
-                        <li>Select one particular pool in chord chart, what is the number of staff that moved away to each other pools?</li>
+                        <li>Select one particular pool in chord chart and observe the bar chart, what is the number of staff that moved away to each other pools?</li>
                         <li>Observe one particular pool in bar chart and select other pools in chord chart, what is the number of staff that moved from each other pools to this particular pool?</li>
                         <li>What career trajectory MSF staff can follow that gives a high probability to become a MedCo?</li>
                     </ol>
