@@ -29,16 +29,16 @@ class Container extends Component {
                         Approximately 10% of MSF’s global workforce is made up of International Staff that perform temporary assignments in MSF’s country projects.
                         Staff build experience at MSF through movement and by working in various pools across the organization.
                         Pools represent international staff that are grouped together by a common profession, skillset or other similarity.
-                        This is how MSF divides its large workforce so that it is more manageable. 
+                        This is how MSF divides its large workforce so that it is more manageable.
                         As MSF is a medical organization, the Medical Coordinator (‘MedCo’) is one of the most critical coordinator roles in the field.
                         This vis analyses how international staff move from one pool to another, so as to help MSF to allocate assignments, develop new hires and grow staff to become MedCo.
                     </p>
                     <h2>Dataset</h2>
                     <p>
-                        Each row of the dataset is an MSF assignment completed by an international staff. 
+                        Each row of the dataset is an MSF assignment completed by an international staff.
                         Each assignment item has 10 attributes: staff_id, assignment_number, departure_date, return_date, assignment_country, pool, job_title, age_bracket, sex, first_departure.
                         <br></br>
-                        pool is a categorical attribute that can hold the following values: 
+                        pool is a categorical attribute that can hold the following values:
                     </p>
                     <ul>
                         <li><b>MEDCO</b>: Medical Coordinator</li>
@@ -52,6 +52,13 @@ class Container extends Component {
                         <li><b>PC</b>: Project Coordinator, responsible for all non-medical operations at the project level</li>
                         <li><b>NON MEDICAL</b>: staff in other roles that don’t require medical knowledge</li>
                     </ul>
+                    <h2>Visual Encoding</h2>
+                    <h3>Chord Chart</h3>
+                    <li><b>Marks</b>: Areas, Lines</li>
+                    <li><b>Channels</b>: Color (Identity Channel), Area / Length (Magnitude Channel)</li>
+                    <h3>Bar Chart</h3>
+                    <li><b>Marks</b>: Lines</li>
+                    <li><b>Channels</b>: Color (Identity Channel), Vertical Position (Magnitude Channel)</li>
                     <h2>Queries</h2>
                     <ol>
                         <li>How many MSF assignments have be completed by each of the various pools?</li>
