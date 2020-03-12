@@ -58,7 +58,7 @@ class Container extends Component {
                     <li><b>Channels</b>: Color (Identity Channel), Area / Length (Magnitude Channel)</li>
                     <h3>Bar Chart</h3>
                     <li><b>Marks</b>: Lines</li>
-                    <li><b>Channels</b>: Color (Identity Channel), Vertical Position (Magnitude Channel)</li>
+                    <li><b>Channels</b>: Color (Identity Channel), Horizontal Position (Magnitude Channel)</li>
                     <h2>Queries</h2>
                     <ol>
                         <li>How many MSF assignments have be completed by each of the various pools?</li>
